@@ -15,9 +15,10 @@
             android:padding="10dp">
 
             <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/baseline_arrow_back_24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:contentDescription="arrow_back"/>
         </LinearLayout>
 
         <LinearLayout
@@ -62,7 +63,8 @@
                         android:text="Age:"
                         android:textSize="24sp"
                         android:layout_marginBottom="16dp"
-                        android:layout_weight="5"/>
+                        android:layout_weight="5"
+                        android:textStyle="bold"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -81,7 +83,8 @@
                         android:text="Sex:"
                         android:textSize="24sp"
                         android:layout_marginBottom="16dp"
-                        android:layout_weight="5"/>
+                        android:layout_weight="5"
+                        android:textStyle="bold"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -101,7 +104,8 @@
                         android:text="Salary:"
                         android:textSize="24sp"
                         android:layout_marginBottom="16dp"
-                        android:layout_weight="5"/>
+                        android:layout_weight="5"
+                        android:textStyle="bold"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -121,7 +125,8 @@
                         android:text="Designation:"
                         android:textSize="24sp"
                         android:layout_marginBottom="16dp"
-                        android:layout_weight="1.5"/>
+                        android:layout_weight="1.5"
+                        android:textStyle="bold"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -131,11 +136,6 @@
                         android:layout_weight="1"/>
                 </LinearLayout>
             </LinearLayout>
-
-
-
         </LinearLayout>
-
-
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
